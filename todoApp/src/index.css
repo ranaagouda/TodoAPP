@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #f1ece6;
+  --secondary-color: #d98326;
+  --tertiary-color: #76b7cd;
+  --background-color: #f8f9fa;
+  --text-dark-color: #323232;
+  --text-medium-color: #969696;
+  --text-light-color: #c2c2c2;
+  --danger-color: #b30b04;
+  --backgroung-color: #fff;
+  --background-grey-color: #f3f3f3;
+  font-size: 24px;
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 100%;
+  margin: 0 auto;
+}
+.taskList {
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  height: 60vh;position: relative;
+}
